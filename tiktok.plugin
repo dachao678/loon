@@ -1,7 +1,7 @@
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
-(?<=&app_version=)1[6-9]..(?=.?.?&) 17. 307
-(?<=\?version_code=)1[6-9]..(?=.?.?&) 17. 307
+(?<=&app_version=)1[6-9]..(?=.?.?&) 18. 307
+(?<=\?version_code=)1[6-9]..(?=.?.?&) 18. 307
 ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
 
 [MITM]
