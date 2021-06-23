@@ -2,7 +2,7 @@
 const $ = new Env("是的来了");
 const JD_API_HOST = "https://m.jingxi.com/";
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
-const jdTokenNode = $.isNode() ? require('./jdJxncTokens.js') : '';
+const jdTokenNode = $.isNode() ? require('./Jxnc.js') : '';
 $.result = [];
 $.cookieArr = [];
 $.currentCookie = '';
