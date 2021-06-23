@@ -4,7 +4,7 @@
 支持京东N个账号
  */
 let JxncTokens = [
-'',//账号一的京喜农场token
+'"farm_jstoken":"76ec7095845b2e75333bdd58cda7988f","phoneid":"c0477461cfa9a28bf57e4ef1fdaa3fa7756ea527","timestamp":"1622634541151","pin":"jd_7e48a4e1daf56"',//账号一的京喜农场token
 '',//账号二的京喜农场token
 ]
 // 判断github action里面是否有京喜农场 token 
