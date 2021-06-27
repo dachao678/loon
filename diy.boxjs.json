@@ -7,7 +7,7 @@
   "apps": [
     {
     "id": "CK",
-    "name": "京东",
+    "name": "京东ck",
     "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
@@ -18,8 +18,7 @@
       "name": "京喜tokens",
       "keys": ["jx_tokens"],
       "descs_html": [
-        "请勿随意在输入框修改内容，建议通过脚本去获取Token，若要修改，请按照 JSON 数组格式修改。",
-        "脚本地址【<a href=\"https://github.com/whyour/hundun/blob/master/quanx/jx_tokens.js\">京喜多账号Token获取</a>】,并按照此脚本注释进行配置"
+        "请勿随意在输入框修改内容，建议通过脚本去获取Token，若要修改，请按照 JSON 数组格式修改。"
       ],
       "settings": [
         {
