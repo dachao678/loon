@@ -12,31 +12,6 @@
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
-  },
-    {
-      "id": "jx_tokens",
-      "name": "京喜tokens",
-      "keys": ["jx_tokens"],
-      "descs_html": [
-        "请勿随意在输入框修改内容，建议通过脚本去获取Token，若要修改，请按照 JSON 数组格式修改。"
-      ],
-      "settings": [
-        {
-          "id": "jx_tokens",
-          "name": "Tokens",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "Tokens 列表 (JSON 数组格式)"
-        }
-      ],
-      "author": "@whyour",
-      "repo": "https://github.com/whyour/hundun/blob/master/quanx/jx_tokens.js",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png"
-      ]
-    }
+  }
   ]
 }
