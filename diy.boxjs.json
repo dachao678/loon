@@ -4,14 +4,27 @@
   "author": "diy",
   "icon": "https://avatars.githubusercontent.com/u/6834731?v=4",
   "repo": "https://github.com/whyour/hundun",
-  "apps": [
-    {
-    "id": "CK",
-    "name": "京东ck",
-    "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
+  "apps":[{
+    "id": "多合一签到",
+    "name": "京东",
+    "keys": ["CookiesJD"],
+    "descs_html": [
+      "<h4 align=\"center\">建议通过脚本获取Cookie</h4>",
+    ],
+    "settings": [{
+      "id": "CookiesJD",
+      "name": "Cookie列表",
+      "val": "",
+      "type": "textarea",
+      "autoGrow": false,
+      "rows": 9,
+      "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
+      "placeholder": "[ {\"cookie\": \"pt_key=xxx;pt_pin=yyy;\", \"jrBody\": \"reqData=zzz\"}  ]",
+      "desc": "Cookie和钢镚签到Body列表, 如需修改请严格按照JSON格式填写; \"cookie\"为必须, 其他为可选."
+    }],
+    "scripts": [],
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
-  }
-  ]
+  }]
 }
