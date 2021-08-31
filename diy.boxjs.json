@@ -23,6 +23,10 @@
       "placeholder": "[ {\"cookie\": \"pt_key=xxx;pt_pin=yyy;\", \"jrBody\": \"reqData=zzz\"}  ]",
       "desc": "Cookie和钢镚签到Body列表, 如需修改请严格按照JSON格式填写; \"cookie\"为必须, 其他为可选."
     }],
+     "scripts": [{
+      "name": "京东签到",
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+    }],
     "author": "diy",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
