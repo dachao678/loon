@@ -6,7 +6,7 @@
   "icon": "https://avatars.githubusercontent.com/u/6834731?v=4",
   "repo": "https://github.com/NobyDa/Script/tree/master",
   "apps": [{
-    "id": "多合一签到",
+    "id": "京东cookies",
     "name": "京东",
     "keys": ["CookiesJD"],
     "descs_html": [
@@ -22,13 +22,6 @@
       "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
       "placeholder": "[ {\"cookie\": \"pt_key=xxx;pt_pin=yyy;\", \"jrBody\": \"reqData=zzz\"}  ]",
       "desc": "Cookie和钢镚签到Body列表, 如需修改请严格按照JSON格式填写; \"cookie\"为必须, 其他为可选."
-    }],
-    "scripts": [{
-      "name": "京东签到",
-      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
-    }, {
-      "name": "初始化设置",
-      "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
     }],
     "author": "diy",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
